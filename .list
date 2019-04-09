@@ -1,2 +1,4 @@
-<filename> -c
-<filename>.fhc -u
+desk.hpp -c
+desk.hpp.fhc -u
+blackboard.py -c
+blackboard.py.fhc -u
