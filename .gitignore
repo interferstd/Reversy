@@ -36,4 +36,6 @@
 *.hpp
 *.h
 *.c
+*.py
+*.ipyth
 *.key
