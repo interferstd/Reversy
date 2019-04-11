@@ -11,7 +11,7 @@ def read_step():
 
 class Blackboard:
     def __init__(self):
-        self.desk = np.zeros((8,8), dtype=int)
+        self.desk = np.zeros((8,8), dtype=np.int8)
         self.desk[3][3] = first
         self.desk[4][4] = first
         self.desk[3][4] = second
