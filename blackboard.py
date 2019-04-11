@@ -5,7 +5,7 @@ first = 1
 second = 2
 draw = 3
 
-def read_step():
+def read_step(a, b):
     x, y = map(int, input('your step: ').split(" "))
     return (x, y)
 
@@ -22,7 +22,7 @@ class Blackboard:
     # takes one argument
     # which is a function returning a coordinates of move
     def make_step(self, coord_function):
-        x, y = coord_function()
+        x, y = coord_function(self.desk, self.possible_steps())
         # assuming that (x, y) is legal move
         x1, y1 = x, y
         # changing horisontals and verticals
