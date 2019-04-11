@@ -10,3 +10,5 @@ main_test.cpp -c
 main_test.cpp.fhc -u
 stdneurolib.hpp -c
 stdneurolib.hpp.fhc -u
+euristics.py -c
+euristics.py.fhc -u
