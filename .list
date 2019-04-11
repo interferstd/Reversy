@@ -18,3 +18,5 @@ player_model.py -c
 player_model.py.fhc -u
 L1.py -c
 L1.py.fhc -u
+test.py -c
+test.py.fhc -u
