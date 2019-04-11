@@ -20,7 +20,7 @@ class Blackboard:
         self.other_plr = second
 
     # takes one argument
-    # which is a function returning a coordinates of move
+    # which is a function of (desk, list of steps) and returning a coordinates of move
     def make_step(self, coord_function):
         x, y = coord_function(self.desk, self.possible_steps())
         # assuming that (x, y) is legal move
@@ -264,6 +264,18 @@ class Blackboard:
                         y -= 1
 
         return list(dict.fromkeys(possible))
+
+def start_game(p1, p2):
+    board = Blackboard()
+    state = 0
+    while True:
+        if board.current_plr == first:
+            state = board.make_step(p1)
+        else:
+            state = board.make_step(p2)
+        if state != empty:
+            return state
+
 
 # можно попробовать поиграть самому с собой - на каждом ходе выводятся все возможные ходы для текущего игрока
 if __name__ == "__main__":
