@@ -14,7 +14,7 @@ euristics.py -c
 euristics.py.fhc -u
 Data\manage.py -c
 Data\manage.py.fhc -u
-Data\update.py -c
-Data\update.py.fhc -u
 player_model.py -c
 player_model.py.fhc -u
+L1.py -c
+L1.py.fhc -u
