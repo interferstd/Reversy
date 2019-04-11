@@ -2,3 +2,14 @@ desk.hpp -c
 desk.hpp.fhc -u
 blackboard.py -c
 blackboard.py.fhc -u
+<<<<<<< HEAD
+=======
+MLP.py -c
+MLP.py.fhc
+dlink_list.hpp -c
+dlink_list.hpp.fhc -u
+main_test.cpp -c
+main_test.cpp.fhc -u
+stdneurolib.hpp -c
+stdneurolib.hpp.fhc -u
+>>>>>>> ced56763111941856c212971d9e991cc9788435c
