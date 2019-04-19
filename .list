@@ -20,3 +20,7 @@ L1.py -c
 L1.py.fhc -u
 test.py -c
 test.py.fhc -u
+board.py -c
+board.py.fhc -u
+Reversy.cpp -c
+Reversy.cpp.fhc -u
