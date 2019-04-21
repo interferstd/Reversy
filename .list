@@ -24,3 +24,5 @@ board.py -c
 board.py.fhc -u
 Reversy.cpp -c
 Reversy.cpp.fhc -u
+blackboard.h -c
+blackboard.h.fhc -u
