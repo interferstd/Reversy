@@ -26,3 +26,5 @@ Reversy.cpp -c
 Reversy.cpp.fhc -u
 blackboard.h -c
 blackboard.h.fhc -u
+ai_easy.h -c
+ai_easy.h.fhc -u
