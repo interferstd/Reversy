@@ -28,3 +28,5 @@ blackboard.h -c
 blackboard.h.fhc -u
 ai_easy.h -c
 ai_easy.h.fhc -u
+computing.cpp -c
+computing.cpp.fhc -u
